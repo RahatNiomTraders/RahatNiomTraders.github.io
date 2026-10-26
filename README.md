@@ -10,26 +10,13 @@ index.html           page content (Bangla)
 assets/css/style.css styles (mobile-first)
 assets/js/main.js    menu, WhatsApp links, gallery lightbox, scroll effects
 assets/img/          optimized WebP photos, favicon, social preview image
-photo/               original photos (not used by the site)
 ```
 
-## Publish on GitHub Pages
+## Live site
 
-1. Create a new repository on GitHub, e.g. `rahat-niom-traders`.
-2. Push this folder:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial website"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/rahat-niom-traders.git
-   git push -u origin main
-   ```
-3. On GitHub, open **Settings → Pages**, set **Source** to *Deploy from a branch*, and choose branch `main` and folder `/ (root)`.
-4. After a minute the site will be live at `https://<your-username>.github.io/rahat-niom-traders/`.
+**https://rahatniomtraders.github.io/**
 
-After the site is live, change the `og:image` meta tag in `index.html` to the full URL
-(`https://<your-username>.github.io/rahat-niom-traders/assets/img/og-image.jpg`) so Facebook and WhatsApp link previews show the shop photo.
+The site is served by GitHub Pages from the `main` branch. Every push to `main` updates the site within a minute or two.
 
 ## Editing
 
